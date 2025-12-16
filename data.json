@@ -1,0 +1,185 @@
+{
+  "magTitle": "24HHyperCars®",
+  "slogan": "Le meilleur de l'actualités automobile mondiale 24h/24, 7j/7",
+  "brand": "assets/images/logo.svg",
+  "cta": {
+    "label": "Découvrir les modèles",
+    "text": "Explorez les légendes et les nouveautés"
+  },
+  "cover": {
+    "titre": "2025 : Hypercars, aérodynamique active et composites",
+    "description": "Les constructeurs repoussent les limites entre circuit et route.",
+    "corps": "Aéro pilotée, matériaux ultra-légers, intérieurs minimalistes.",
+    "date": "1er Décembre 2025",
+    "theme": "Innovation",
+    "auteur": "Floryan",
+    "imageHero": "assets/texture/texture1.jpg",
+    "note": 4.7,
+    "vues": 11200,
+    "lecture": "7 min",
+    "tags": [
+      "hypercars",
+      "aérodynamique",
+      "composites",
+      "luxe"
+    ]
+  },
+  "stories": [
+    {
+      "titre": "Porsche vs Ferrari",
+      "description": "Deux philosophies, une même quête.",
+      "corps": "Précision vs émotion.",
+      "date": "28 Novembre 2025",
+      "theme": "Comparatifs",
+      "auteur": "Rédaction",
+      "image": "assets/texture/texture2.png",
+      "note": 4.5,
+      "vues": 8750,
+      "lecture": "6 min",
+      "tags": [
+        "porsche",
+        "ferrari"
+      ]
+    },
+    {
+      "titre": "Design et performance",
+      "description": "Forme au service de la vitesse.",
+      "corps": "Traînée réduite, extracteurs optimisés.",
+      "date": "24 Novembre 2025",
+      "theme": "Design",
+      "auteur": "Floryan",
+      "image": "assets/texture/texture3.jpg",
+      "note": 4.6,
+      "vues": 10120,
+      "lecture": "7 min",
+      "tags": [
+        "design",
+        "aero"
+      ]
+    },
+    {
+      "titre": "Intérieurs et ergonomie",
+      "description": "Luxe minimaliste.",
+      "corps": "Matériaux nobles et interfaces.",
+      "date": "20 Novembre 2025",
+      "theme": "Ergonomie",
+      "auteur": "Rédaction",
+      "image": "assets/texture/texture4.jpg",
+      "note": 4.4,
+      "vues": 7920,
+      "lecture": "5 min",
+      "tags": [
+        "intérieur",
+        "luxe"
+      ]
+    },
+    {
+      "titre": "Circuit vs route",
+      "description": "Adaptations et compromis.",
+      "corps": "Réglages et homologations.",
+      "date": "15 Novembre 2025",
+      "theme": "Usage",
+      "auteur": "Floryan",
+      "image": "assets/texture/texture5.jpg",
+      "note": 4.6,
+      "vues": 8300,
+      "lecture": "6 min",
+      "tags": [
+        "circuit",
+        "route"
+      ]
+    },
+    {
+      "titre": "Électrification des supercars",
+      "description": "Puissance et autonomie.",
+      "corps": "Hybridation et batteries.",
+      "date": "10 Novembre 2025",
+      "theme": "Tech",
+      "auteur": "Rédaction",
+      "image": "assets/texture/texture6.jpg",
+      "note": 4.3,
+      "vues": 7100,
+      "lecture": "5 min",
+      "tags": [
+        "électrique",
+        "hybride"
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "nom": "Hypercars",
+      "description": "Technologies de pointe.",
+      "icon": "🏎️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#EF4444"
+    },
+    {
+      "nom": "Design",
+      "description": "Esthétique et ergonomie.",
+      "icon": "🎨",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#3B82F6"
+    },
+    {
+      "nom": "Matériaux",
+      "description": "Composites et fibres.",
+      "icon": "🧱",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#8B5CF6"
+    },
+    {
+      "nom": "Aéro",
+      "description": "Appui et traînée.",
+      "icon": "🌬️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#10B981"
+    },
+    {
+      "nom": "Ergonomie",
+      "description": "Confort et interfaces.",
+      "icon": "🛋️",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#F59E0B"
+    },
+    {
+      "nom": "Tech",
+      "description": "Hybridation et EV.",
+      "icon": "🔌",
+      "image": "assets/texture/texture7.jpg",
+      "color": "#6B7280"
+    }
+  ],
+  "contributors": [
+    {
+      "prenom": "Floryan",
+      "nom": "",
+      "typeExperience": "Passionné d'automobile",
+      "presentation": "Analyse des modèles et technologies.",
+      "image": "assets/texture/texture7.jpg",
+      "email": "floryan@sportcars.com",
+      "articles": 18,
+      "followers": 6200
+    },
+    {
+      "prenom": "Anaïs",
+      "nom": "Morel",
+      "typeExperience": "Designer",
+      "presentation": "Esthétique et ergonomie.",
+      "image": "assets/texture/texture7.jpg",
+      "email": "anais@designauto.com",
+      "articles": 16,
+      "followers": 5400
+    },
+    {
+      "prenom": "Hugo",
+      "nom": "Besson",
+      "typeExperience": "Ingénieur aéro",
+      "presentation": "Appui et CFD.",
+      "image": "assets/texture/texture7.jpg",
+      "email": "hugo@aeroauto.com",
+      "articles": 20,
+      "followers": 7000
+    }
+  ]
+}
