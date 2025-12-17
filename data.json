@@ -1,6 +1,6 @@
 {
-  "magTitle": "24HHyperCars®",
-  "slogan": "Le meilleur de l'actualités automobile mondiale 24h/24, 7j/7",
+  "magTitle": "MAG24H- FERRARI",
+  "slogan": "Le meilleur de l'actualité Ferrari, 24h/24, 7j/7",
   "brand": "assets/images/logo.svg",
   "cta": {
     "label": "Découvrir les modèles",
@@ -23,6 +23,7 @@
       "composites",
       "luxe"
     ]
+    
   },
   "stories": [
     {
@@ -32,7 +33,7 @@
       "date": "28 Novembre 2025",
       "theme": "Comparatifs",
       "auteur": "Rédaction",
-      "image": "assets/texture/texture2.png",
+      "image": "assets/images/cars/6CAD3B25-0562-4574-AD4A-F32FE43EAE61.jpg",
       "note": 4.5,
       "vues": 8750,
       "lecture": "6 min",
@@ -48,7 +49,7 @@
       "date": "24 Novembre 2025",
       "theme": "Design",
       "auteur": "Floryan",
-      "image": "assets/texture/texture3.jpg",
+      "image": "assets/images/cars/IMG_3828.jpg",
       "note": 4.6,
       "vues": 10120,
       "lecture": "7 min",
@@ -64,7 +65,7 @@
       "date": "20 Novembre 2025",
       "theme": "Ergonomie",
       "auteur": "Rédaction",
-      "image": "assets/texture/texture4.jpg",
+      "image": "assets/images/cars/yannis-zaugg-ladDFX1tTh8-unsplash.jpg",
       "note": 4.4,
       "vues": 7920,
       "lecture": "5 min",
@@ -80,7 +81,7 @@
       "date": "15 Novembre 2025",
       "theme": "Usage",
       "auteur": "Floryan",
-      "image": "assets/texture/texture5.jpg",
+      "image": "assets/images/cars/andreas-brun-fjDDh6iOBQA-unsplash.jpg",
       "note": 4.6,
       "vues": 8300,
       "lecture": "6 min",
@@ -96,7 +97,23 @@
       "date": "10 Novembre 2025",
       "theme": "Tech",
       "auteur": "Rédaction",
-      "image": "assets/texture/texture6.jpg",
+      "image": "assets/images/gab-PN5igppYq9Q-unsplash.jpg",
+      "note": 4.3,
+      "vues": 7100,
+      "lecture": "5 min",
+      "tags": [
+        "électrique",
+        "hybride"
+      ]
+    },
+     {
+      "titre": "Il rêve d'une hypercar et fini par l'acheter comptant",
+      "description": "Le rêve d'un jeune de 19 ans devenu réalité",
+      "corps": "Hybridation et batteries.",
+      "date": "10 Novembre 2025",
+      "theme": "Tech",
+      "auteur": "Rédaction",
+      "image": "assets/images/cars/yannis-zaugg-zcn7dDIUIOI-unsplash.jpg",
       "note": 4.3,
       "vues": 7100,
       "lecture": "5 min",
@@ -105,47 +122,48 @@
         "hybride"
       ]
     }
-  ],
+  ], 
+  
   "topics": [
     {
-      "nom": "Hypercars",
+      "nom": "  Hypercars",
       "description": "Technologies de pointe.",
-      "icon": "🏎️",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#EF4444"
     },
     {
-      "nom": "Design",
+      "nom": "  Design",
       "description": "Esthétique et ergonomie.",
-      "icon": "🎨",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#3B82F6"
     },
     {
-      "nom": "Matériaux",
+      "nom": "  Matériaux",
       "description": "Composites et fibres.",
-      "icon": "🧱",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#8B5CF6"
     },
     {
-      "nom": "Aéro",
+      "nom": "  Aéro",
       "description": "Appui et traînée.",
-      "icon": "🌬️",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#10B981"
     },
     {
-      "nom": "Ergonomie",
+      "nom": "  Ergonomie",
       "description": "Confort et interfaces.",
-      "icon": "🛋️",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#F59E0B"
     },
     {
-      "nom": "Tech",
+      "nom": "  Tech",
       "description": "Hybridation et EV.",
-      "icon": "🔌",
+      "icon": "⚪️",
       "image": "assets/texture/texture7.jpg",
       "color": "#6B7280"
     }

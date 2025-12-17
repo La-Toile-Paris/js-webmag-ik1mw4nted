@@ -20,9 +20,9 @@ function getData() {
 
         console.log(nomprincipal);
 
-let nomdujournal  = `<div class="nav" id="nav" >
+let nomdujournal  = `<div class="navabar" id="navbar" >
          <h1>${nomprincipal}</h1>
-    </div> `
+    </div>`
     
     console.log(nomdujournal);
 
@@ -74,18 +74,22 @@ let slogan  = `<p>${descriptionnom}</p>`
       let body = journal.cover.description;
       let auteur = journal.cover.auteur;
       let date = journal.cover.date;
+      
+      let articlePrincipal = document.getElementById("article-principal");  
  
-      let articlePrincipal = document.getElementById("article-principal");
- 
-      let mainArticle = `
-          <img id="hero-image" src="${image}" alt="Image principale de l'article">
+      let mainArticle = 
+                `<video id="hero-image" width="2100" height="850"
+                class="hero-info" autoplay muted loop>
+  <source src="assets/video/Introducing the Ferrari F80.mp4" type="video/mp4">
+                              </video>
               <div class="hero-info">
                 <h3 id="hero-titre">${titre}</h3>
                   <p id="hero-description">${body}</p>
                   <p id="hero-auteur">Par ${auteur} - ${date}</p>
                   <button class="read-article-btn">Lire l'article</button>
-                </div>
-`;
+                </div>`;
+
+
       articlePrincipal.innerHTML = mainArticle;
   
 
@@ -106,7 +110,7 @@ function createArticleCard(stories) {
       
       let lesDifferentsArticles = document.getElementById("articles-grid");
  
-      let cardArticle = `<div class"article-card">
+      let cardArticle = `<div class="article-card">
           <img src="${cardImage}" alt="Image principale de l'article">
 
               <div class="article-content">
@@ -115,7 +119,7 @@ function createArticleCard(stories) {
 
                   <p>${cardDesc}</p>
 
-                  <p class="article-author">Par ${cardAuteur} - ${cardDate}</p>
+                  <p class="article-author">Par ${cardAuteur} - ${cardDate}<p>
 
                   <button class="read-article-btn">Lire l'article</button>
                 </div>
@@ -123,45 +127,100 @@ function createArticleCard(stories) {
 
                 console.log(cardArticle);
 
-                lesDifferentsArticles.innerHTML += cardArticle;
-                
+                lesDifferentsArticles.innerHTML += cardArticle;             
 }
+
 
         journal.stories.forEach(stories => {
           createArticleCard(stories);
                 });
 
-                
+      
 
-
-
-
-  
-
-
-
-
-
-
-
-
-   
-
-
-  
-
-
-
-
-
-
-      // TODO 4: REMPLIR LA GRILLE D'ARTICLES
-
+/////////////////////////////
       // TODO 5: REMPLIR LES THEMES
 
-      // TODO 6: REMPLIR LES AUTEURS
+function definirUnTheme(topic) {
 
-      // TODO 7: REMPLIR LE BOUTON CALL TO ACTION
+
+    let nomtheme = topic.nom;
+    let desctheme = topic.description;
+    let emoji = topic.icon;
+
+    let differentAuth = document.getElementById("themes-list");
+
+    let nextTopic = `<div class="theme-item">
+        <h3>${emoji}</h3>
+        <h3>${nomtheme}</h3>
+        <h4>${desctheme}</h4>
+    </div>`;
+
+    console.log(nextTopic);
+
+    differentAuth.innerHTML += nextTopic;
+}
+
+journal.topics.forEach(topic => {
+    definirUnTheme(topic);
+});
+
+///////////////////////////// 
+
+
+  function createAuthorsCard(contributors) {
+
+
+        let authorImage = contributors.image;
+        let authorName = contributors.prenom;
+        let authorExpertise = contributors.typeExperience;
+        let authorBio = contributors.presentation;
+ 
+ 
+        let authorContainer = document.getElementById("authors-list");
+ 
+ 
+        let authorCard = `
+                      <div class="author-card">
+                        <img class="author-image" src="${authorImage}" alt="${authorName}">
+                        <h3>${authorName}</h3>
+                        <p class="author-role">${authorExpertise}</p>
+                        <p class="author-bio">${authorBio}</p>
+                        <div class="author-socials">
+                          <a href="#">📷 Instagram</a>
+                          <a href="#">🐦 Twitter</a>
+                          <a href="#">💼 LinkedIn</a>
+                        </div>
+                      </div>
+                    `;
+
+        authorContainer.innerHTML += authorCard;
+      }
+ 
+      data.contributors.forEach(author => {
+        createAuthorsCard(author);
+      });
+
+
+//////////////////////////////////////////////
+
+
+      let ctaText = journal.cta.text;
+      let ctaLabel = journal.cta.label;
+ 
+      let ctaContainer = document.getElementById("call-to-action");
+ 
+      // let ctaHTML = `
+      // //                 <p>${ctaText}</p>
+      // //                 <button id="cta-button"class="cta-button"><a href="https://carconfigurator.ferrari.com/fr_FR"></a>${ctaLabel}</button>
+      // //               `;
+
+                    let ctaHTML = `<p>${ctaText}</p>
+                    <button id="cta-button" class="cta-button" onclick="window.location.href='https://carconfigurator.ferrari.com/fr_FR'">
+            ${ctaLabel}
+        </button>`
+ 
+      ctaContainer.innerHTML = ctaHTML;
+
 
 
       /// FIN DU CODE
