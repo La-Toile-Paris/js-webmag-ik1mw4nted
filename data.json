@@ -3,8 +3,8 @@
   "slogan": "Le meilleur de l'actualité Ferrari, 24h/24, 7j/7",
   "brand": "assets/images/logo.svg",
   "cta": {
-    "label": "Découvrir les modèles",
-    "text": "Explorez les légendes et les nouveautés"
+    "label": "Configure ton modèle",
+    "text": "Explorez les légendes et les nouveautés de l'écurie Ferrari"
   },
   "cover": {
     "titre": "2025 : Hypercars, aérodynamique active et composites",
@@ -174,7 +174,7 @@
       "nom": "",
       "typeExperience": "Passionné d'automobile",
       "presentation": "Analyse des modèles et technologies.",
-      "image": "assets/texture/texture7.jpg",
+      "image": "assets/thispersondoesnotexist/téléchargement (1).jpeg",
       "email": "floryan@sportcars.com",
       "articles": 18,
       "followers": 6200
@@ -184,7 +184,7 @@
       "nom": "Morel",
       "typeExperience": "Designer",
       "presentation": "Esthétique et ergonomie.",
-      "image": "assets/texture/texture7.jpg",
+      "image": "assets/thispersondoesnotexist/téléchargement (11).jpeg",
       "email": "anais@designauto.com",
       "articles": 16,
       "followers": 5400
@@ -194,7 +194,7 @@
       "nom": "Besson",
       "typeExperience": "Ingénieur aéro",
       "presentation": "Appui et CFD.",
-      "image": "assets/texture/texture7.jpg",
+      "image": "assets/thispersondoesnotexist/téléchargement (1).jpeg",
       "email": "hugo@aeroauto.com",
       "articles": 20,
       "followers": 7000
